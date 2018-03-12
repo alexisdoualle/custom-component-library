@@ -4,6 +4,7 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 import { CustomHeaderModule } from './custom-header/custom-header.module'
+import { CustomDivModule } from './custom-div/custom-div.module';
 
 @NgModule({
   declarations: [
@@ -11,7 +12,8 @@ import { CustomHeaderModule } from './custom-header/custom-header.module'
   ],
   imports: [
     BrowserModule,
-    CustomHeaderModule
+    CustomHeaderModule,
+    CustomDivModule
   ],
   providers: [],
   bootstrap: [AppComponent]
